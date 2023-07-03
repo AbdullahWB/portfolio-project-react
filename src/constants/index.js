@@ -198,9 +198,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Martial Arts Quest",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Martial Art Quest is a martial art online school. There have 4 types of users Admin, Instructor, Student, and regular users.",
     tags: [
       {
         name: "react",
@@ -211,54 +211,54 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AbdullahWB/Martial-arts-quest-project",
   },
   {
-    name: "Job IT",
+    name: "Bingo Toy",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Bingo Toy is an E-comers website for your kids. Here have 2 type user on kinds of users add, update, show, delete the product, and sell the other is just buy products.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AbdullahWB/bingo-toy-project",
   },
   {
-    name: "Trip Guide",
+    name: "Food Master",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Food Master is an E-comers website for every food lover. Here you can see so many types of food and you need to buy this and add it to your cart.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "express",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AbdullahWB/food-master-project",
   },
 ];
 
