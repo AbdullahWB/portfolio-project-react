@@ -40,7 +40,7 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>About Me.</h2>
       </motion.div>
 
       <motion.p
@@ -51,6 +51,11 @@ const About = () => {
         learning, and collaborative teamwork. Exceptional skills in crafting dynamic user interfaces. Self-driven, adaptable, and
         always up for a challenge. Let's create exceptional web experiences together!
       </motion.p>
+
+      <div className="mt-10 flex gap-5">
+        <a className="border-[4px] rounded-full hover:bg-[#915eff] font-semibold px-7 py-4" href="https://drive.google.com/u/0/uc?id=1LdMy7v2DOC6nvAdOwL12dnrbR38HzIga&export=download" download>Download Resume</a>
+        <a className="border-[4px] rounded-full hover:bg-[#915eff] font-semibold px-7 py-4" href="https://drive.google.com/file/d/1LdMy7v2DOC6nvAdOwL12dnrbR38HzIga/view">View Resume</a>
+      </div> 
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
