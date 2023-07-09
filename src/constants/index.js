@@ -172,27 +172,30 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Bootstrap is a popular CSS framework that offers a comprehensive set of pre-designed components and responsive grid systems. It simplifies the process of building responsive and visually appealing websites, saving...",
+    // name: "Sara Lee",
+    // designation: "CFO",
+    // company: "Acme Co",
+    // image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://images.opencollective.com/bootstrap/a892851/background.png"
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    "React.js is a JavaScript library for building user interfaces. Its component-based architecture, virtual DOM, and efficient rendering make it an excellent choice for creating interactive and scalable web applications.",
+    // name: "Chris Brown",
+    // designation: "COO",
+    // company: "DEF Corp",
+    // image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://i.ytimg.com/vi/x0fSBAgBrOQ/maxresdefault.jpg"
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Postman is a versatile tool for testing and documenting APIs. It allows you to send requests, inspect responses, and automate API testing, making it an essential tool for web developers working with backend APIs.",
+    // name: "Lisa Wang",
+    // designation: "CTO",
+    // company: "456 Enterprises",
+    // image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://media.geeksforgeeks.org/wp-content/uploads/20230216170349/What-is-an-API.png"
   },
 ];
 

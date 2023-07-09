@@ -23,7 +23,12 @@ const FeedbackCard = ({
     <div className='mt-1'>
       <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
 
-      <div className='mt-7 flex justify-between items-center gap-1'>
+      <div>
+        <img className="w-full h-32 object-cover mt-5 rounded-xl" src={image} alt="" />
+        <button className="text-white w-full mt-5 bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">See More</button>
+      </div>
+
+      {/* <div className='mt-7 flex justify-between items-center gap-1'>
         <div className='flex-1 flex flex-col'>
           <p className='text-white font-medium text-[16px]'>
             <span className='blue-text-gradient'>@</span> {name}
@@ -38,7 +43,7 @@ const FeedbackCard = ({
           alt={`feedback_by-${name}`}
           className='w-10 h-10 rounded-full object-cover'
         />
-      </div>
+      </div> */}
     </div>
   </motion.div>
 );
@@ -50,8 +55,8 @@ const Feedbacks = () => {
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+          <p className={styles.sectionSubText}>Here My Blogs</p>
+          <h2 className={styles.sectionHeadText}>Blogs.</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>

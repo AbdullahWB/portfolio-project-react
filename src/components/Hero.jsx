@@ -27,7 +27,7 @@ const Hero = () => {
 
       {/* <ComputersCanvas /> */}
 
-      <div className="w-[20%] rounded-full h-auto absolute top-[40%] left-[40%]">
+      <div className="lg:w-[20%] w-[60%] rounded-full h-auto absolute top-[40%] left-[20%] lg:left-[40%]">
         <img className="rounded-full border-[10px] border-[#915EFF] w-full h-full" src="https://i.ibb.co/TgrzF12/IMG-20211128-154257.jpg" alt="" />
       </div>
 
